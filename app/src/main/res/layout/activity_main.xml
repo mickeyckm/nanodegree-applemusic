@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="ng.cheo.android.applemusic.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/search"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Search"/>
+
+                <Button
+                    android:id="@+id/store"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Store"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:layout_marginBottom="20dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/artists_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="ARTISTS"
+                    android:textStyle="bold"
+                    android:textSize="12sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/artists_list"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/adele"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@color/colorPrimary"
+                            android:src="@drawable/adele"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:id="@+id/ruthb"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginRight="16dp"
+                            android:src="@drawable/ruthb"
+                            android:scaleType="centerCrop"
+                            android:background="@color/colorPrimary" />
+
+                        <ImageView
+                            android:id="@+id/shawnmendes"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/shawnmendes"
+                            android:scaleType="centerCrop"
+                            android:background="@color/colorPrimary" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:layout_marginBottom="20dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/albums_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="ALBUMS"
+                    android:textStyle="bold"
+                    android:textSize="12sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/albums_list"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/nomoney"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginRight="16dp"
+                            android:src="@drawable/nomoney"
+                            android:scaleType="centerCrop"
+                            android:background="@color/colorPrimary" />
+
+                        <ImageView
+                            android:id="@+id/theocean"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginRight="16dp"
+                            android:src="@drawable/theocean"
+                            android:scaleType="centerCrop"
+                            android:background="@color/colorPrimary" />
+
+                        <ImageView
+                            android:id="@+id/thescript"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/thescript"
+                            android:scaleType="centerCrop"
+                            android:background="@color/colorPrimary" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:layout_marginBottom="20dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/podcasts_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="PODCASTS"
+                    android:textStyle="bold"
+                    android:textSize="12sp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/podcasts_list"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/serial"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@color/colorPrimary"
+                            android:src="@drawable/serial"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:id="@+id/startup"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@color/colorPrimary"
+                            android:src="@drawable/startup"
+                            android:scaleType="centerCrop" />
+
+                        <ImageView
+                            android:id="@+id/invisible"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/invisible"
+                            android:background="@color/colorPrimary"
+                            android:scaleType="centerCrop" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
