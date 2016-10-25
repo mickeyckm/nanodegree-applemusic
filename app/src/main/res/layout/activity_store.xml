@@ -18,36 +18,36 @@
             android:id="@+id/function_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FUNCTION"
+            android:text="@string/function_title"
             android:textSize="14sp"
             android:textStyle="bold"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="@dimen/title_margin_bottom"/>
 
         <TextView
             android:id="@+id/function"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/function_title"
-            android:layout_marginBottom="30dp"
-            android:text="To allow user to listen to a short snippet of song and/or purchase songs."/>
+            android:layout_marginBottom="@dimen/desc_margin_bottom"
+            android:text="@string/function_store"/>
 
         <TextView
             android:id="@+id/technical_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/function"
-            android:text="TECHNICAL CHALLENGES"
+            android:text="@string/technical_title"
             android:textSize="14sp"
             android:textStyle="bold"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="@dimen/title_margin_bottom"/>
 
         <TextView
             android:id="@+id/technical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/technical_title"
-            android:layout_marginBottom="30dp"
-            android:text="Require a networking library to connect to the server to retrieve a list of available songs and apis to stream snippets of songs and/or purchase songs."/>
+            android:layout_marginBottom="@dimen/desc_margin_bottom"
+            android:text="@string/technical_store"/>
 
     </RelativeLayout>
 

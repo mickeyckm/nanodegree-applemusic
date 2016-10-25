@@ -18,36 +18,36 @@
             android:id="@+id/function_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FUNCTION"
+            android:text="@string/function_title"
             android:textSize="14sp"
             android:textStyle="bold"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="@dimen/title_margin_bottom"/>
 
         <TextView
             android:id="@+id/function"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/function_title"
-            android:layout_marginBottom="30dp"
-            android:text="To allow user to look for artists, albums and podcasts on the app"/>
+            android:layout_marginBottom="@dimen/desc_margin_bottom"
+            android:text="@string/function_search"/>
 
         <TextView
             android:id="@+id/technical_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/function"
-            android:text="TECHNICAL CHALLENGES"
+            android:text="@string/technical_title"
             android:textSize="14sp"
             android:textStyle="bold"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="@dimen/title_margin_bottom"/>
 
         <TextView
             android:id="@+id/technical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/technical_title"
-            android:layout_marginBottom="30dp"
-            android:text="Require data storage to store all the information where the system can run queries to filter results from the storage."/>
+            android:layout_marginBottom="@dimen/desc_margin_bottom"
+            android:text="@string/technical_search"/>
 
     </RelativeLayout>
 

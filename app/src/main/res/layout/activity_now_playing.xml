@@ -19,36 +19,36 @@
             android:id="@+id/function_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FUNCTION"
+            android:text="@string/function_title"
             android:textSize="14sp"
             android:textStyle="bold"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="@dimen/title_margin_bottom"/>
 
         <TextView
             android:id="@+id/function"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/function_title"
-            android:layout_marginBottom="30dp"
-            android:text="To allow user to play/stream audio file"/>
+            android:layout_marginBottom="@dimen/desc_margin_bottom"
+            android:text="@string/function_now_playing"/>
 
         <TextView
             android:id="@+id/technical_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/function"
-            android:text="TECHNICAL CHALLENGES"
+            android:text="@string/technical_title"
             android:textSize="14sp"
             android:textStyle="bold"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="@dimen/title_margin_bottom"/>
 
         <TextView
             android:id="@+id/technical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/technical_title"
-            android:layout_marginBottom="30dp"
-            android:text="Require an audio player and for streaming, a network library to stream audio file."/>
+            android:layout_marginBottom="@dimen/desc_margin_bottom"
+            android:text="@string/technical_now_playing"/>
 
     </RelativeLayout>
 

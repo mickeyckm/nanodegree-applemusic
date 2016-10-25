@@ -27,14 +27,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Search"/>
+                    android:text="@string/button_search"/>
 
                 <Button
                     android:id="@+id/store"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Store"/>
+                    android:text="@string/button_store"/>
 
             </LinearLayout>
 
@@ -50,7 +50,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:text="ARTISTS"
+                    android:text="@string/list_artists"
                     android:textStyle="bold"
                     android:textSize="12sp"/>
 
@@ -67,26 +67,26 @@
 
                         <ImageView
                             android:id="@+id/adele"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:layout_marginRight="16dp"
+                            android:layout_width="@dimen/list_item_width"
+                            android:layout_height="@dimen/list_item_height"
+                            android:layout_marginRight="@dimen/list_item_right_margin"
                             android:background="@color/colorPrimary"
                             android:src="@drawable/adele"
                             android:scaleType="centerCrop" />
 
                         <ImageView
                             android:id="@+id/ruthb"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:layout_marginRight="16dp"
+                            android:layout_width="@dimen/list_item_width"
+                            android:layout_height="@dimen/list_item_height"
+                            android:layout_marginRight="@dimen/list_item_right_margin"
                             android:src="@drawable/ruthb"
                             android:scaleType="centerCrop"
                             android:background="@color/colorPrimary" />
 
                         <ImageView
                             android:id="@+id/shawnmendes"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
+                            android:layout_width="@dimen/list_item_width"
+                            android:layout_height="@dimen/list_item_height"
                             android:src="@drawable/shawnmendes"
                             android:scaleType="centerCrop"
                             android:background="@color/colorPrimary" />
@@ -109,7 +109,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:text="ALBUMS"
+                    android:text="@string/list_albums"
                     android:textStyle="bold"
                     android:textSize="12sp"/>
 
@@ -126,26 +126,26 @@
 
                         <ImageView
                             android:id="@+id/nomoney"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:layout_marginRight="16dp"
+                            android:layout_width="@dimen/list_item_width"
+                            android:layout_height="@dimen/list_item_height"
+                            android:layout_marginRight="@dimen/list_item_right_margin"
                             android:src="@drawable/nomoney"
                             android:scaleType="centerCrop"
                             android:background="@color/colorPrimary" />
 
                         <ImageView
                             android:id="@+id/theocean"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:layout_marginRight="16dp"
+                            android:layout_width="@dimen/list_item_width"
+                            android:layout_height="@dimen/list_item_height"
+                            android:layout_marginRight="@dimen/list_item_right_margin"
                             android:src="@drawable/theocean"
                             android:scaleType="centerCrop"
                             android:background="@color/colorPrimary" />
 
                         <ImageView
                             android:id="@+id/thescript"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
+                            android:layout_width="@dimen/list_item_width"
+                            android:layout_height="@dimen/list_item_height"
                             android:src="@drawable/thescript"
                             android:scaleType="centerCrop"
                             android:background="@color/colorPrimary" />
@@ -168,7 +168,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:text="PODCASTS"
+                    android:text="@string/list_podcasts"
                     android:textStyle="bold"
                     android:textSize="12sp"/>
 
@@ -185,26 +185,26 @@
 
                         <ImageView
                             android:id="@+id/serial"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:layout_marginRight="16dp"
+                            android:layout_width="@dimen/list_item_width"
+                            android:layout_height="@dimen/list_item_height"
+                            android:layout_marginRight="@dimen/list_item_right_margin"
                             android:background="@color/colorPrimary"
                             android:src="@drawable/serial"
                             android:scaleType="centerCrop" />
 
                         <ImageView
                             android:id="@+id/startup"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:layout_marginRight="16dp"
+                            android:layout_width="@dimen/list_item_width"
+                            android:layout_height="@dimen/list_item_height"
+                            android:layout_marginRight="@dimen/list_item_right_margin"
                             android:background="@color/colorPrimary"
                             android:src="@drawable/startup"
                             android:scaleType="centerCrop" />
 
                         <ImageView
                             android:id="@+id/invisible"
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
+                            android:layout_width="@dimen/list_item_width"
+                            android:layout_height="@dimen/list_item_height"
                             android:src="@drawable/invisible"
                             android:background="@color/colorPrimary"
                             android:scaleType="centerCrop" />
